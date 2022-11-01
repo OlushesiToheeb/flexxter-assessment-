@@ -37,6 +37,7 @@ class Task extends HTMLElement {
         let checked = this.getAttribute('checked') !== 'false';
         this.setAttribute('checked', Boolean(!checked));
 
+        //call the imaginary endpoint to save the new task
         fetch('https://flexxter.de/Tasks/Save', {
             method: 'POST',
 
