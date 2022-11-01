@@ -1,0 +1,23 @@
+{
+    "projects": [
+        {
+            "tasks": [
+                {
+                    "id": 1,
+                    "title": "Paint the wall",
+                    "description": "Please paint all the walls in white color",
+                    "checked": true,
+                    "project_id": "1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clean the site",
+                    "description": "Please make sure you cleaned the construction site before leaving",
+                    "checked": false,
+                    "project_id": "1"
+                }
+            ],
+            "id": "1"
+        }
+    ]
+}
